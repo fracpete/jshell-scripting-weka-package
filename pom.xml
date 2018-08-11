@@ -5,7 +5,7 @@
 
   <groupId>com.github.fracpete</groupId>
   <artifactId>jshell-scripting-weka-package</artifactId>
-  <version>2018.7.3-SNAPSHOT</version>
+  <version>2018.8.11-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>jshell-scripting</name>
@@ -99,7 +99,7 @@
     <dependency>
       <groupId>com.github.fracpete</groupId>
       <artifactId>jshell-scripting</artifactId>
-      <version>0.0.1</version>
+      <version>0.0.2</version>
     </dependency>
 
     <dependency>

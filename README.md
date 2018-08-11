@@ -89,6 +89,7 @@ System.out.println(eval.toSummaryString());
 
 Click on one of the following links to download the corresponding Weka package:
 
+* [2018.8.11](https://github.com/fracpete/jshell-scripting-weka-package/releases/download/v2018.8.11/jshell-scripting-2018.8.11.zip)
 * [2018.7.2](https://github.com/fracpete/jshell-scripting-weka-package/releases/download/v2018.7.2/jshell-scripting-2018.7.2.zip)
 
 
@@ -100,7 +101,7 @@ Add the following dependency in your `pom.xml` to include the package:
     <dependency>
       <groupId>com.github.fracpete</groupId>
       <artifactId>jshell-scripting-weka-package</artifactId>
-      <version>2018.7.2</version>
+      <version>2018.8.11</version>
       <type>jar</type>
       <exclusions>
         <exclusion>
