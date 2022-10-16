@@ -99,14 +99,7 @@
     <dependency>
       <groupId>com.github.fracpete</groupId>
       <artifactId>jshell-scripting</artifactId>
-      <version>0.0.4</version>
-    </dependency>
-
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.13.1</version>
-      <scope>test</scope>
+      <version>0.1.2</version>
     </dependency>
   </dependencies>
 
