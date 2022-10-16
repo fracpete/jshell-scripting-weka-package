@@ -5,7 +5,7 @@
 
   <groupId>com.github.fracpete</groupId>
   <artifactId>jshell-scripting-weka-package</artifactId>
-  <version>2022.10.17</version>
+  <version>2022.10.18-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>jshell-scripting</name>
