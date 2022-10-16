@@ -2,10 +2,10 @@
 PackageName=jshell-scripting
 
 # Version (required)
-Version=2019.4.3
+Version=2022.10.17
 
 #Date (year-month-day)
-Date=2019-04-03
+Date=2022-10-17
 
 # Title (required)
 Title=JShell scripting
@@ -26,7 +26,7 @@ License=GPL 3.0
 Description=Allows scripting in Java via jshell (requires Java 9+)
 
 # Package URL for obtaining the package archive (required)
-PackageURL=https://github.com/fracpete/jshell-scripting-weka-package/releases/download/v2019.4.3/jshell-scripting-2019.4.3.zip
+PackageURL=https://github.com/fracpete/jshell-scripting-weka-package/releases/download/v2022.10.17/jshell-scripting-2022.10.17.zip
 
 # URL for further information
 URL=https://github.com/fracpete/jshell-scripting-weka-package
