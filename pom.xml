@@ -275,7 +275,7 @@
         <version>2.8.1</version>
         <configuration>
           <maxmemory>256m</maxmemory>
-          <subpackages>weka:org</subpackages>
+          <subpackages>weka</subpackages>
           <show>public</show>
           <outputDirectory>${project.basedir}/doc</outputDirectory>
           <!-- when using Java 8, use this setting to avoid overly strict javadoclet -->
@@ -287,6 +287,29 @@
             <goals>
               <goal>jar</goal>
             </goals>
+          </execution>
+        </executions>
+      </plugin>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-dependency-plugin</artifactId>
+        <version>3.6.1</version>
+        <executions>
+          <execution>
+            <id>copy-dependencies</id>
+            <phase>process-resources</phase> <!-- Run during resource processing -->
+            <goals>
+              <goal>copy-dependencies</goal>
+            </goals>
+            <configuration>
+              <outputDirectory>${project.build.directory}/lib</outputDirectory> <!-- Target folder -->
+              <includeScope>runtime</includeScope> <!-- Include runtime dependencies -->
+              <excludeTransitive>false</excludeTransitive> <!-- Include transitive deps -->
+              <overWriteReleases>false</overWriteReleases>
+              <overWriteSnapshots>false</overWriteSnapshots>
+              <overWriteIfNewer>true</overWriteIfNewer>
+            </configuration>
           </execution>
         </executions>
       </plugin>
