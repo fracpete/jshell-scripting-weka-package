@@ -1,10 +1,20 @@
 How to make a release
 =====================
 
-* Switch to Java 11
-
 Preparation
 -----------
+
+* Switch to Java 11
+
+* Pull all dependencies:
+
+  ```
+  mvn clean install -DskipTests
+  ```
+
+* Update libraries in `lib` with ones from `dist/lib`
+* 
+* Commit any updated libraries
 
 * Change the artifact ID in `pom.xml` to today's date, e.g.:
 
