@@ -1,6 +1,8 @@
 How to make a release
 =====================
 
+* Switch to Java 11
+
 Preparation
 -----------
 
